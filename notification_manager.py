@@ -1,13 +1,13 @@
 import smtplib
-
+#written by ram 
 from twilio.rest import Client
 
-TWILIO_SID = "ACb88045ffe02ce7f35d45a35a412b039f"
-TWILIO_AUTH_TOKEN = "2756bb60ccc47c813d1f760caacbc0f3"
-TWILIO_VIRTUAL_NUMBER = '+17626677645'
-TWILIO_VERIFIED_NUMBER = "+918248965616"
+TWILIO_SID = "your SID"
+TWILIO_AUTH_TOKEN = "Your auth Token"
+TWILIO_VIRTUAL_NUMBER = ''
+TWILIO_VERIFIED_NUMBER = ""
 MY_EMAIL = "walternotsowhite69@gmail.com"
-MY_PASSWORD = "inptycwbexclzywi"
+MY_PASSWORD = ""
 
 
 class NotificationManager:
